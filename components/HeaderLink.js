@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderLink = () => {
   return( <div>
-      HeadrerLink
+      Done till 40 min
   </div>);
 };
 
