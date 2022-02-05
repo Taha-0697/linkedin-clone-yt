@@ -5,10 +5,19 @@ import GroupIcon from '@mui/icons-material/Group'
 import OndemandVideoSharpIcon from '@mui/icons-material/OndemandVideoSharp'
 import BusinessCenterIcon from '@mui/icons-material/BusinessCenter'
 import ArrowForwardIosRoundedIcon from '@mui/icons-material/ArrowForwardIosRounded'
+import Head from 'next/head'
 
 const Home = () => {
   return (
     <div className="space-y-10 relative">
+      
+      {/* for changing  the tab name n urk of every page */}
+      <Head>
+        <title>LinkdeIn</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+
+
       <header className="flex py-4 items-center justify-around">
         <div className="relative h-10 w-36">
           <Image src="https://rb.gy/vtbzlp" layout="fill" objectFit="contain" />
